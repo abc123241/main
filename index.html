@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Home page </title>
+<style>
+    
+         body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #c0bbbb74;
+         }
+        
+         
+         header{
+            background: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            background-image: url(Images/image1.jpg);
+         }
+         nav a{
+             color: white; 
+             margin: 0 15px; 
+            text-decoration: none; 
+         }
+         section{
+            text-align: center;
+         }
+         html{
+            scroll-behavior: smooth;
+         }
+         table{
+            background-color: #f4f4f4;
+            margin: 50px auto;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+         }
+         .artist-card{
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+           margin: 30px;
+           padding: 20px;
+           gap: 20px;
+           align-items: center;
+         }
+         .artist-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px;
+            padding: 20px;
+            gap: 20px;
+            align-items: center;
+         }
+        
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <h1> My Music Player Website </h1>
+        <h4> Listen Your Favorite Songs </h4>
+<nav>
+   <a href="#home.html">Home page</a> 
+   <a href="#about.html">About page</a> 
+  <a href="#trending.html"> Trending page</a>
+ <a href="#Artists.html">Artists page</a>
+ <a href="#Album.html">Album page</a>
+  <a href="#Playlist.html">Playlist page</a>
+  <a href="#Latest.html">Latest page </a>
+  <a href="#Contact.html"> Contact page</a>
+</header>
+
+<section id="home" class="page">
+<article>
+    <h1 style="text-align: center;"> Welcome to music world </h1>
+    <p> On this website you can browse featured songs, view artist profiles, check popular albums, and play songs directly 
+   from the music player. Each section of the website helps you explore music in an organized way so that you can quickly
+     find what you are looking for.
+     <p> The navigation bar allows you to move easily between different pages such as Home, About,
+      Albums, Artists,Playlists, and Contact. Music is an important part of our daily life. It helps people relax, stay motivated, 
+      and express emotions. With Music World,our goal is to create a simple and user-friendly platform where users can enjoy music anytime.
+       Start exploring the latest tracks, discover new artists, and enjoy the world of music with just a single click.</p>
+</p>
+<img src="../images/image2 copy.jpg" width="400px" height="400px" alt="song images"> 
+ </article>
+<h2> Website Features </h2>
+    <p> Listen to trending songs </p>
+    <p> Explore popular artist </p>
+   <p>  Discover new albums </p>
+   <p>  Create your own playlist </p>
+    <p> Simple and interactive music player </p>
+</section>
+
+<section id="about" class="page">
+    <h1> About Page </h1>
+     <article>
+        <h2 style="text-align: center;"> <u> Music Category </u> </h2>
+    <table border="10" cellpadding="10">
+        <tr>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Example Song</th>
+        </tr>
+
+        <tr>
+            <td>Pop</td>
+            <td>Popular modern songs</td>
+            <td>Shape of You</td>
+        </tr>
+
+        <tr>
+            <td>Romantic</td>
+            <td>Love songs</td>
+            <td>Perfect</td>
+        </tr>
+
+        <tr>
+            <td>Rock</td>
+            <td>Energetic music</td>
+            <td>Num</td>
+        </tr>
+
+        <tr>
+            <td>Classical</td>
+            <td>Traditional music</td>
+            <td>Moonlight Sonata</td>
+        </tr>
+    </table>
+        <h2 style="text-align: center;">About Our Music World </h2>
+      <p> Our goal is to create a platform where music lovers can easily discover and listen to their favorite songs. The website provides access to a variety of music genres and artists.We also aim to provide a simple and user-friendly interface where users 
+     can explore trending songs, popular albums, and famous artists without any difficulty.</p>
+    <p>
+        Welcome to Music World, your ultimate destination for discovering and enjoying a wide variety of music.Our platform is designed for music lovers who want to explore songs from different genres, artists, and cultures 
+        all in one place. Whether you enjoy romantic melodies, energetic pop, or soothing classical tunes, we have something for everyone.
+    </p>
+    <p>
+        Music is not just entertainment, it is an emotion that connects people across the world. Our website aims to provide 
+        a seamless experience where users can listen to their favorite songs, create playlists, and stay updated with the latest releases. 
+        We focus on delivering high-quality audio and an easy-to-use interface for a better user experience.
+    </p>
+
+    <p>
+        Our platform includes different sections such as trending songs, popular artists, latest releases, and curated playlists. 
+        Users can explore artist profiles to learn more about their musical journey and listen to their top tracks. 
+        This helps users discover new talent and enjoy a diverse collection of music.
+    </p>
+
+    <p>
+        We believe that music has the power to relax the mind, reduce stress, and bring happiness. 
+        That is why our mission is to make music easily accessible to everyone, anytime and anywhere. 
+        Whether you are studying, working, or relaxing, Music World is always with you.
+    </p>
+
+    <p>
+        Thank you for being a part of our musical journey. Keep listening, keep enjoying!
+    </p>
+     </article>
+</section>
+
+<section id="trending" class="page">
+    <h1> Trending page </h1>
+    <div class="artist-container">
+
+ <div class="artist-card">
+ <img src="../images/image4.jpg" alt="song images">
+ <audio controls>
+ <source src="../songs/Soulmate Ek Tha Raja 128 Kbps.mp3" type="audio/mp3">
+ </audio>
+ </div>
+
+ <div class="artist-card">
+ <img src="images/image5.jpg" alt="song images">
+ <audio controls>
+ <source src="../songs/Kesariya Brahmastra 128 Kbps.mp3" type="audio/mp3">
+ </audio>
+ </div>
+
+ <div class="artist-card">
+ <img src="../images/image6.jpg" alt="song images">
+ <audio controls>
+ <source src="../songs/Phir Aur Kya Chahiye Zara Hatke Zara Bachke 128 Kbps.mp3" type="audio/mp3">
+ </audio>
+ </div>
+
+ <div class="artist-card">
+ <img src="../images/image3.jpg" alt="song images">
+ <audio controls>
+ <source src="songs/Gehra Hua - NaaSongs.mp3" type="audio/mp3">
+ </audio>
+ </div>
+
+ <div class="artist-card">
+ <img src="../images/image7.jpg" alt="song images">
+ <audio controls>
+ <source src="../songs/Ajab Si Om Shanti Om 128 Kbps.mp3" type="audio/mp3">
+ </audio>
+ </div>
+ <script src="script.js"> </script>
+ </div>
+</section>
+
+<section id="artist" class="page">
+    <h1> Artists Page </h1>
+    <div class="artist-container">    
+<div class="artist-card">
+<img src="images/image8.jpg" alt="song images">
+<h3>Atif Aslam</h3>
+<p>Atif Aslam is a renowned Pakistani playback singer, songwriter, and actor known for his soulful voice and emotional singing style. He gained popularity with songs like “Tera Hone Laga Hoon” and “Jeene Laga Hoon,” which became huge hits in Bollywood. His unique vocal texture and ability to express deep feelings have made him one of the most loved singers across India and Pakistan. Atif Aslam has also received several awards and continues to perform in concerts worldwide.
+</p>
+</div>
+
+<div class="artist-card">
+<img src="../images/image10.jpg" alt="song images">
+<h3>Shreya Ghoshal</h3>
+<p>Shreya Ghoshal is one of the most celebrated Indian playback singers, known for her melodious voice and versatility. She started her career after winning a singing reality show and quickly rose to fame with songs like “Bairi Piya” and “Teri Ore.” Shreya has sung in multiple languages including Hindi, Bengali, Tamil, and Telugu. Her classical training and emotional depth make her songs timeless and highly admired.</p>
+</div>
+
+<div class="artist-card">
+<img src="../images/image9.jpg" alt="song images">
+<h3>Arijit Singh</h3>
+<p>Arijit Singh is a highly popular Indian singer known for his heartfelt and soulful songs. He became famous with the song “Tum Hi Ho,” which made him a household name. Arijit is known for his emotional expression and versatility, singing romantic, sad, and energetic tracks. His simplicity and dedication to music have earned him a massive fan following</p>
+</div>
+
+<div class="artist-card">
+<img src="../images/image11.webp" alt="song images">
+<h3>Armaan Malik</h3>
+<p>Armaan Malik is a young and talented Indian singer and songwriter known for his smooth voice and modern music style. He has sung popular songs like “Bol Do Na Zara” and “Main Rahoon Ya Na Rahoon.” Armaan is also recognized internationally and has released English songs, making him a global artist. His dedication and versatility have made him popular among the youth.</p>
+</div>
+
+<div class="artist-card">
+<img src="../images/image12.jpg" width="500px" height="700px" alt="song images">
+<h3>Diljit Dosanjh</h3>
+<p>Diljit Dosanjh is a famous Punjabi singer, actor, and performer known for his energetic music and acting skills. He has given many hit Punjabi songs like “Do You Know” and has also acted in Bollywood movies. Diljit’s unique style, lively performances, and connection with fans have made him a global icon in Punjabi entertainment.</p>
+</div>
+</div>
+</section>
+
+<section id="Playlist" class="page">
+    <h1> Playlist Page </h1>
+    
+<div class="artist-container">
+
+<div class="artist-card">
+<a class="play-btn"
+href="https://www.youtube.com/watch?v=4yaLKNH-pV0"
+target="_blank">
+Play 90s Songs
+</a>
+</div>
+<p>
+The 1990s era is widely regarded as one of the golden periods of Bollywood music. 
+Songs from this decade are remembered for their melodious tunes, emotional lyrics, 
+and beautiful compositions. Even today, these songs continue to be popular among 
+music lovers of all generations.
+</p>
+
+<p>
+During the 90s, many talented singers, lyricists, and music directors created 
+songs that became evergreen classics. Their creativity and unique musical style 
+made the songs memorable and enjoyable for listeners. These songs are still played 
+in homes, radio stations, and music playlists.
+</p>
+
+<p>
+One of the special features of 90s music is its simplicity and emotional depth. 
+The lyrics often express feelings of love, friendship, happiness, and sadness 
+in a very meaningful way. Because of this, listeners can easily connect with 
+the songs and enjoy them for a long time.
+</p>
+
+<p>
+Listening to 90s songs brings a strong feeling of nostalgia. Many people remember 
+their childhood memories, movies, and special moments associated with these songs. 
+This emotional connection is one of the main reasons why 90s music remains timeless.
+</p>
+
+<p>
+This playlist is created to celebrate the beauty of 90s music and allow listeners 
+to enjoy unlimited songs from that era. By exploring this playlist, music lovers 
+can experience the charm, melody, and unforgettable magic of classic Bollywood music.
+</p>
+
+<script src="script.js"> </script>
+</div>
+</section>
+
+<section id="latest" class="page">
+    <h1> Latest Page </h1>
+    
+<div class="artist-container">
+
+<div class="artist-card">
+<h3> Khairiyat </h3>
+<audio controls>
+<source src="../songs/Khairiyat Chhichhore 128 Kbps.mp3" type="audio/mp3">
+<p> Khairiyat is a soulful and emotional song from the movie Chhichhore. It is sung by Arijit Singh and expresses deep feelings of love, care, and separation. The song shows how a person asks about the well-being of their loved one even when they are far away. Its soft music and touching lyrics make it very popular among listeners. The melody creates a calm and emotional atmosphere that connects directly to the heart.</p>
+</audio>
+</div>
+
+
+<div class="artist-card">
+<h3> Dhun</h3>
+<audio controls>
+<source src="../songs/Dhun Saiyaara 128 Kbps.mp3" type="audio/mp3">
+<p> Dhun is a beautiful and emotional song from the movie Saiyaara. The song focuses on the feeling of love and deep emotional connection. Its soft melody and meaningful lyrics create a calm and touching atmosphere. The music flows smoothly like a tune in the heart, making listeners feel relaxed and connected to the emotions of the song. It perfectly expresses inner feelings and the beauty of love.</p>
+</audio>
+</div>
+
+
+<div class="artist-card">
+<h3> Saiyaara </h3>
+<audio controls>
+<source src="../songs/Title Track Saiyaara 128 Kbps.mp3" type="audio/mp3">
+<p> Saiyaara is a romantic and soulful title track from the movie Saiyaara. The song expresses deep love, longing, and emotional attachment between two people. Its lyrics beautifully describe how someone becomes an important part of your life. The slow and soothing music enhances the emotional depth of the song, making it very heart-touching. It is loved for its strong emotional expression and melodious composition.</p>
+</audio>
+</div>
+
+<div class="artist-card">
+<h3>Humnava Mere</h3>
+<audio controls>
+<source src="../songs/Humnava Mere Jubin Nautiyal 128 Kbps.mp3" type="audio/mp3">
+<p> Humnava Mere is a soulful and emotional song sung by Jubin Nautiyal. The song expresses deep love, heartbreak, and the pain of separation. Its lyrics beautifully describe the feelings of missing someone special and the emptiness left behind after they are gone. The soft melody and touching composition create a very emotional atmosphere, making it easy for listeners to connect with the song. “Humnava Mere” is widely loved for its heartfelt emotions and soothing music.</p>
+</audio>
+</div>
+
+<div class="artist-card">
+<h3>Tera Ban Jaunga</h3>
+<audio controls>
+<source src="../songs/Tera Ban Jaunga - Kabir Singh - 64Kbps-(Mr-Jat.in).mp3" type="audio/mp3">
+<p> Tera Ban Jaunga is a romantic and emotional song from the movie Kabir Singh, sung by Akhil Sachdeva and Tulsi Kumar. The song beautifully expresses deep love, commitment, and the promise of staying together forever. Its lyrics show the feeling of dedicating one’s life to a loved person. The soft music and soothing melody make it very heart-touching and popular among listeners. “Tera Ban Jaunga” perfectly captures the essence of true love and emotional bonding.</p>
+</audio>
+</div>
+
+<div class="artist-card">
+<h3>Phir aur kya Chahiye</h3>
+<audio controls>
+<source src="../songs/Phir Aur Kya Chahiye Zara Hatke Zara Bachke 128 Kbps.mp3" type="audio/mp3">
+</audio>
+</div>
+
+<p> Latest songs in 2026 are a perfect mix of modern music styles like pop, rap, EDM, and traditional Indian sounds. Many new songs focus on love, emotions, and life experiences, making them relatable for young audiences. Songs like “Tu Mere Rubaru” and “Mohabbat Ho Gayi” show how romantic music is still trending with fresh beats and visuals. These songs are widely shared on platforms like YouTube and Spotify, gaining millions of views in a short time. �
+YouTube+1</p>
+<p> The latest music industry is highly influenced by digital platforms and social media trends. New songs often go viral through reels and short videos, which increases their popularity quickly. Artists are experimenting with different languages and fusion styles, combining Indian classical elements with Western music. For example, recent songs include different genres like pop, folk, and dance music, showing diversity in modern music. �
+extragavanza.in</p>
+
+  <a class="play-btn"
+href= "https://www.bing.com/ck/a?!&&p=afe13527c5faaf29a9a8823932f3d136d64bffbac968a8d4ab778758597ebf2cJmltdHM9MTc3NTA4ODAwMA&ptn=3&ver=2&hsh=4&fclid=083e9381-d9c3-6749-0aa9-84a9d820662a&u=a1aHR0cHM6Ly9nYWFuYS5jb20vbmV3cmVsZWFzZQ&ntb=1"
+
+target="_blank">
+Play All Type Songs</a>
+
+<script src="script.js"> </script> 
+
+</div>
+</section>
+
+<section id="Contact" class="page">
+    <h1> Contact Page </h1>
+    
+<div class="artist-container">
+
+<h2 style="text-align: center;"> <u>Contact Music World </u></h2>
+<p>
+If you have any questions, suggestions, or feedback about our music website,feel free to contact us. Music World is created for music lovers who want
+to explore trending songs, famous artists, and popular albums in one place.
+Your feedback helps us improve our website and provide a better experience
+for all music fans.</p>
+
+<form>
+<table border="10" cellpadding="8">
+    <tr>
+       <td> Name </td> 
+      <td> <input type="text" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td> Email </td>
+       <td> <input type="email" placeholder="Enter your email"></td>
+    </tr>
+    <tr>
+        <td> Password </td>
+       <td> <input type="password" placeholder="Enter your password"> </td>
+    </tr>
+    <tr>
+        <td> Gender </td>
+       <td> <input type="radio" placeholder="enter your gender">Male
+        <input type="radio" placeholder="enter your gender">Female </td>
+    </tr>
+    <tr>
+        <td> City </td>
+        <td>
+            <select name="city">
+                <option> Delhi </option>
+                <option> Mumbai </option>
+                <option> Agra</option>
+                <option> Bangal </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td> Message </td>
+       <td> <textarea rows="4"  placeholder="write your message"></textarea> </td>
+    </tr>
+    <tr>
+        <td> <input type="submit" value="submit"> </td>
+        <td> <input type="reset" value="reset"> </td>
+    </tr>
+</table>
+</form>
+</div>
+</section>
+<script>
+    
+const audios = document.querySelectorAll("audio");
+
+audios.forEach(audio => {
+    audio.addEventListener("play", () => {
+        audios.forEach(a => {
+            if (a !== audio) {
+                a.pause();
+            }
+        });
+    });
+});
+</script>
+
+<Footer>
+<p>© 2026 My Music Website </p>
+
+
+</body>
+</html>
